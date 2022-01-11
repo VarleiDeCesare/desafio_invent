@@ -10,6 +10,7 @@ function main(name) {
             novoNome += nomeSeparado[i][0] + ". ";
             continue
         }
+
         novoNome += nomeSeparado[i] + " ";
     }
     console.log(novoNome);
